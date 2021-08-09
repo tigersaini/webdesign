@@ -1,0 +1,423 @@
+html {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landingbanner {
+    background-image: url(images/i4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-area a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-area a:hover {
+    color: rgb(55, 205, 50);
+}
+
+li.hover {
+    background-color: rgb(74, 175, 243);
+    border-radius: 1px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.logo {
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.button {
+    color: white;
+    background-color: yellowgreen;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+
+.text p {
+    font-size: 30px;
+}
+
+.text p1 {
+    font-size: 60px;
+}
+
+.box {
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: rgb(50, 209, 50);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 40px;
+}
+
+.newdiv {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+    padding: 1rem;
+    padding-left: 15%;
+}
+
+.left h5 {
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.left p {
+    font-family: sans-serif;
+    font-size: 29px;
+}
+
+.left h6 {
+    font-family: sans-serif;
+}
+
+.right {
+    padding: 1rem;
+    width: 50%;
+}
+
+.right p {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.olddiv {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.sunday {
+    width: 20%;
+    padding: 5rem;
+    font-family: sans-serif;
+}
+
+.sunday p {
+    font-size: 30px;
+}
+
+.monday {
+    padding: 2rem;
+    font-family: sans-serif;
+    padding-top: 11rem;
+}
+
+.yash {
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.yash p {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.yash h5 {
+    font-family: sans-serif;
+}
+
+.gfg {
+    margin: auto;
+    justify-content: center;
+    background-image: url(images/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    padding: 13rem;
+}
+
+.first-txt {
+    font-family: sans-serif;
+    color: white;
+}
+
+.second-txt {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.third-txt {
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: rgb(50, 209, 50);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 35px;
+}
+
+.slider {
+    width: 65%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(167, 218, 251);
+}
+
+.lists {
+    width: 30%;
+    padding: 1rem;
+}
+
+.lists ul {
+    display: block;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+.footer-bottom {
+    background: rgb(47, 47, 47);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 200;
+    color: azure;
+}
+
+@media only screen and (max-width: 576px) {
+    .landingbanner {
+        background-image: url(images/i4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    nav {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+    .text {
+        color: white;
+        font-family: sans-serif;
+        padding-top: 4rem;
+        padding-left: 2rem;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .text p1 {
+        font-size: 32px;
+    }
+    .box {
+        border-radius: 2px;
+        border: none;
+        color: white;
+        background-color: rgb(50, 209, 50);
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        height: 40px;
+        font-size: 12px;
+    }
+    .newdiv {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        margin: auto;
+        justify-content: center;
+    }
+    .left {
+        width: 100%;
+        padding: 1rem;
+    }
+    .left h5 {
+        font-size: medium;
+        font-family: sans-serif;
+    }
+    .left p {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .left h6 {
+        font-family: sans-serif;
+    }
+    .right {
+        padding: 1rem;
+        width: 100%;
+    }
+    .right img {
+        width: 100% !important;
+    }
+    .right p {
+        font-family: sans-serif;
+        font-size: small;
+    }
+    .gfg {
+        margin: auto;
+        justify-content: center;
+        background-image: url(images/11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 5rem;
+    }
+    .first-txt {
+        font-family: sans-serif;
+        color: white;
+    }
+    .second-txt {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+    .third-txt {
+        border-radius: 2px;
+        border: none;
+        color: white;
+        background-color: rgb(50, 209, 50);
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        height: 35px;
+        font-size: 10px;
+    }
+    .footer {
+        padding: 2rem 1rem 2rem 1rem;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        background-color: rgb(167, 218, 251);
+    }
+    .lists {
+        width: 100%;
+        padding: 1rem;
+    }
+    .lists ul {
+        display: block;
+    }
+    .lists li {
+        list-style-type: none;
+    }
+    .footer-bottom {
+        background: rgb(47, 47, 47);
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .footer-bottom p {
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+        opacity: .4;
+        font-weight: 200;
+        color: azure;
+    }
+    .glyphicon.glyphicon-chevron-right {
+        display: none;
+    }
+    .glyphicon.glyphicon-chevron-left {
+        display: none;
+    }
+    .logo {
+        padding: 8px;
+        border-radius: 50%;
+    }
+    .box {
+        border-radius: 2px;
+        border: none;
+        color: white;
+        background-color: rgb(50, 209, 50);
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        height: 40px;
+        font-size: 11px;
+    }
+    .olddiv {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        margin: auto;
+        justify-content: center;
+    }
+    .sunday {
+        width: 100%;
+        padding: 5rem;
+        font-family: sans-serif;
+    }
+    .sunday p {
+        font-size: 30px;
+    }
+    .monday {
+        padding: 2rem;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    .tuesday img {
+        width: 100%;
+    }
+}
